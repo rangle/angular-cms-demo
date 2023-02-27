@@ -1,0 +1,4 @@
+<div *ngFor="let athlete of athletes">
+    <li><img src={{athlete.image.fields.file.url}}/></li>
+    <h2>{{athlete.firstName + ' ' + athlete.lastName}}</h2>
+</div>
